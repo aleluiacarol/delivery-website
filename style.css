@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;300;200&family=Roboto:wght@400;700&display=swap');
+
+
+body, button, input, select, textarea {
+    font-family: 'Poppins', sans-serif;
+    }
+
+*{
+    box-sizing: border-box;
+ }
+
+html, body {
+    margin: 0;
+}
+
+
+:root {
+    --medium-pink: #EB7797;
+    --light-grey: #fffefeea;
+    --medium-grey: #818181;
+}
+
+
+.iphone-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%vw;
+    height: 110px;
+
+}
+ 
+.iphone-menu img {
+    height: 100%;
+    margin-left: 20px;
+}
+
+.iphone-menu ul {
+    width: 100vw;
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+}
+
+.iphone-menu li {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+}
+
+.iphone-menu li:hover {
+    color: rgb(235,119,151);
+    color: radial-gradient(circle, rgba(235,119,151,1) 0%, rgba(149,51,78,1) 100%);
+    transition: 1s; 
+}
+
+.fazer-pedido {
+    background: rgb(235,119,151);
+    background: radial-gradient(circle, rgba(235,119,151,1) 0%, rgba(149,51,78,1) 100%);
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-weight: regular;
+}
+
+.fazer-pedido h2 {
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.fazer-pedido h2:hover {
+    color: black;
+    transition: 1s; 
+}
+.escolha-pedido  {
+    background: #f7f3f4;
+    text-align: center;
+    margin: auto;
+    width: 100%vw;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 30px 40px;
+    column-gap: 20px;
+    row-gap: 50px;
+}
+
+.escolha-pedido img {
+    width: 208px;
+    height: 192px;
+    border-radius: 10px;
+}
+
+.escolha-pedido p, .escolha-pedido h4  {
+    display: inline-block;
+    margin: auto;
+}
+
+.escolha-pedido h4  {
+    font-weight: 500;
+}
+
+.escolha-pedido button {
+    margin-left: 8px;
+    border-radius: 60px;
+    border-color: var(--medium-pink);
+    background: white;
+    border-style: solid;
+    color: var(--medium-pink);
+    transition: 1s; 
+    cursor: pointer;
+}
+
+.escolha-pedido button:hover {
+    border-radius: 30px;
+    background: var(--medium-pink);
+    color: white;
+    border-style: solid;
+    transition: 1s; 
+}
+
+.footer {
+   text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+}
+
+
+.footer li {
+    display: flex;
+    text-decoration: none;
+}
+
+
+.footer h3 {
+    color: var(--medium-pink);
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.footer button { 
+    text-align: center;
+    width: 110px;
+    height: 35px;
+    border-radius: 30px;
+    border-color: white;
+    background: rgb(235,119,151);
+    background: radial-gradient(circle, rgba(235,119,151,1) 0%, rgba(149,51,78,1) 100%);
+    border-style: double;
+    color: white;
+    transition: 1s; 
+    cursor: pointer;
+}
+
+.footer button:hover {
+    border-radius: 30px;
+    color: black;
+    border-style: double;
+    transition: 1s; 
+}
